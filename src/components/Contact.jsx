@@ -7,7 +7,7 @@ const Contact = () => {
         Contact
       </h2>
       <form
-        className=' bg-sky-800 flex items-center flex-col gap-4 p-10 w-10/12 m-auto rounded-2xl mb-10'
+        className=' bg-sky-800 flex items-center flex-col gap-4 p-10 w-10/12 md:w-8/12 m-auto rounded-2xl mb-10'
         action=''>
         <input
           className=' bg-sky-500 text-white w-full placeholder:text-zinc-500 p-2 rounded'
