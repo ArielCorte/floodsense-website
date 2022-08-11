@@ -1,45 +1,41 @@
-import React from 'react'
-import systemDiagram from '../assets/system-diagram.png'
+import React, { useEffect, useRef } from 'react'
 import Waves from './Waves'
+import SystemGrid from './SystemGrid'
 
 const OurSystem = () => {
   return (
     <>
-      <section>
-        <h2 className=' text-center text-3xl font-bold pb-10 text-sky-800 font-display'>
-          Our System
-        </h2>
-        <img src={systemDiagram} alt='system diagram' className='m-auto' />
-      </section>
+      <SystemGrid />
       <section className='mt-16'>
         <div className='text-sky-800'>
           <Waves />
         </div>
         <div className='bg-sky-800 px-10 pb-10'>
           <div className='text-2xl font-bold pb-2 font-display'>
-            High distance sensors
+            Sensores de alta distancia
           </div>
           <p className='text-white'>
-            Our sensor uses LoraWAN, an RF for long range transmission to reach
-            far away places
+            Nuestro sensor utiliza LoraWAN, un módulo RF para transmisión de
+            largas distancias para llegar a lugares lejanos
           </p>
         </div>
         <div className='bg-sky-500 p-10'>
           <div className='text-2xl font-bold pb-2 font-display'>
-            Safety for people
+            Seguridad para las personas
           </div>
           <p className='text-white'>
-            Our system ensures safety for people who lives near river bank or
-            just go for tourism
+            Nuestro sistema asegura la protección de las personas que viven
+            cerca del río o que sólo va por turismo
           </p>
         </div>
         <div className='bg-sky-800 px-10 pt-10'>
           <div className='text-2xl font-bold pb-2 font-display'>
-            Data anywhere
+            Datos en cualquier lugar
           </div>
           <p className='text-white'>
-            Since it mixes RF transmission with 4G transmission, our system can
-            upload the data to be available anywhere, anytime
+            Debido a que mezclamos transmisión por radiofrecuencia con
+            transmisión 4G, nuestro sistema puede subir los datos a la nube para
+            que estén disponibles en cualquier lado, a cualquier momento.
           </p>
         </div>
         <div className='text-sky-800'>

@@ -6,3 +6,7 @@
   font-family: 'Cooper-Black';
   src: url('./assets/fonts/cooper-black.ttf');
 }
+
+html {
+  scroll-behavior: smooth;
+}

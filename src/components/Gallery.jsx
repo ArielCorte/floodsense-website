@@ -4,7 +4,7 @@ import LogoImg from './LogoImg'
 
 const Gallery = () => {
   return (
-    <section>
+    <section id='gallery'>
       <h2 className=' text-center text-3xl font-bold py-10 text-sky-800'>
         Gallery
       </h2>
