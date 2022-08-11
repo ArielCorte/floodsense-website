@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <section id='contact'>
       <h2 className=' text-center text-3xl font-bold py-10 text-sky-800'>
-        Contact
+        Contacto
       </h2>
       <form
         className=' bg-sky-800 flex items-center flex-col gap-4 p-10 w-10/12 md:w-8/12 m-auto rounded-2xl mb-10'
@@ -12,7 +12,7 @@ const Contact = () => {
         method='POST'>
         <input
           className=' bg-sky-500 text-white w-full placeholder:text-zinc-500 p-2 rounded'
-          placeholder='Your email'
+          placeholder='Tu mail'
           type='email'
           name='email'
           required
@@ -31,7 +31,7 @@ const Contact = () => {
           id=''
           cols='30'
           rows='10'
-          placeholder='Your message'
+          placeholder='Tu mensaje'
           required></textarea>
         <input
           type='hidden'
@@ -41,7 +41,7 @@ const Contact = () => {
         <input
           className='bg-white text-sky-800 px-10 py-2 active:bg-zinc-400 duration-75 rounded-lg'
           type='submit'
-          value='Send'
+          value='Enviar'
         />
       </form>
     </section>
